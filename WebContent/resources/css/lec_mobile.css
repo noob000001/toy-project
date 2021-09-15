@@ -1,0 +1,49 @@
+.wrap_user a {
+	display: none;
+}
+
+#mob_menu {
+	font-size: 4vw;
+	display: block;
+}
+
+.main {
+	height: 38vw;
+	background-image: url("../image/main_banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+}
+
+.snb {
+	display: none;
+}
+
+.line_book {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	justify-content: space-around;
+}
+
+.wrap_book>div>p {
+	font-size: 4vw;
+	font-weight: bolder;
+	text-align: center;
+	background-color: lightgreen;
+	color: white;
+	padding: 1%;
+}
+
+.line_book p {
+	margin-top: 10px;
+	font-size: 2vw;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.box_book {
+	margin: 10px 0 5px 0;
+	width: 40%;
+}

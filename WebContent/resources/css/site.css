@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+   html, body{
+      height: 100%;
+      min-width: 900px;
+   }
+
+   .header{
+      height: 13%;
+   }
+   
+   .header::after{
+      content: "";
+      display: block;
+      clear: both;
+   }
+   
+   .header>div{
+      position:relative;
+      top:50%;
+      transform:translateY(-50%);
+      width:33.3%;
+      float:left;
+   }
+   
+   .box_login{
+      height: 50%;
+   }
+   
+   .img_logo{
+      width: 65px;
+      height: 65px;
+      margin-left: 5%;
+   }
+   
+   .tit_site{
+      font-size:2em;
+      color:blue;
+      font-weight:bolder;
+      text-align: center;
+   }
+   
+   .frm_login{
+      position:relative;
+      left:30%;
+      width: 70%;
+      height: 100%;
+   }
+   
+   .frm_login>div{
+      width:70%;
+      display: inline-block;   
+   }
+   
+   .wrap_login {
+      float: left;
+   }
+   
+   .wrap_login *{
+      display: inline-block;
+   }
+   
+   .wrap_login::after{
+      content: "";
+      display: block;
+      clear: both;
+   }
+   
+   .frm_login button{
+      display: inline-block;   
+      position:relative;
+      height:100%;   
+      background-color: red;
+      color: white;
+      border-style:outset;   
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+   
+   .frm_login label{
+      text-align:right;
+      width: 40%;
+      font-size: 13px;
+   }
+   
+   .frm_login input{
+      width: 50%;
+   }
+   
+   .gnb{
+      height:5%;
+      background-color: black;
+      
+   }
+   
+   .wrap_nav::after{
+      content: "";
+      display: block;
+      clear:both;
+   }
+   
+   .wrap_nav{
+      height:100%;
+   }
+   
+   .wrap_nav>div{
+      float:left;
+      width:16.6%;
+      height:100%;
+   }
+   
+   .wrap_nav a{
+      position: relative;
+      display:block;
+      top:50%;
+      text-align:center;
+      transform:translateY(-50%);
+      color:white;
+   }
+   
+   .wrap_nav>div:hover{
+      background-color: red;
+   }
+   
+   .nav_gal{
+      position: relative; 
+   }
+   
+   .nav_gal:hover .snb_gal>div{
+      transition-duration:0.5s;
+      height: 50%;
+   }
+   
+   .nav_gal:hover .snb_gal>div>a{
+      transition-duration:0.5s;
+      color:white;
+   }
+   
+   .snb_gal{
+      position:absolute;
+      top:100%;
+      width:100%;
+      height: 200%;
+   }
+   
+   .snb_gal>div{
+      height: 0%;
+      background-color: blue;
+      
+   }
+   
+   .snb_gal>div:hover{
+      background-color: green;
+   }
+
+   .snb_gal>div>a{
+      color: transparent;
+   }
+   
+   .section{
+      min-height:67%;
+      background-color: lightyellow;
+   }
+   
+   .footer{
+      height: 15%;
+      background-color: lightblue;
+   }
