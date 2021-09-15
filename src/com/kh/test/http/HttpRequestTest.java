@@ -88,6 +88,7 @@ public class HttpRequestTest extends HttpServlet {
 		javaGroup.put("groupName", "자바");
 		javaGroup.put("keywords", javaKeywords);
 		
+		
 		Map<String,Object> pythonGroup = new LinkedHashMap<String,Object>();
 		pythonGroup.put("groupName", "파이썬");
 		pythonGroup.put("keywords", javaKeywords);
